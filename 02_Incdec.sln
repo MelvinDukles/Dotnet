@@ -1,0 +1,22 @@
+// C# Program for increment and Decrement
+using System;
+
+namespace _02Exercise
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 10;
+            Console.WriteLine("The Value of a is "+ a);
+            Console.WriteLine("The Value of ++a is " + ++a);
+            Console.WriteLine("The Value of a is " + a);
+            Console.WriteLine("The Value of a++ is " + a++);
+            Console.WriteLine("The Value of a is " + a);
+            Console.WriteLine("The Value of --a is " + --a);
+            Console.WriteLine("The Value of a is " + a);
+            Console.WriteLine("The Value of a-- is " + a--);
+            Console.WriteLine("The Value of a is " + a);
+        }
+    }
+}
