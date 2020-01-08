@@ -1,0 +1,28 @@
+// C# Program for Students grade
+using System;
+
+namespace studentgrade
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int avg,q,f,m;
+            Console.WriteLine("Enter the Quiz Score");
+            q = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the mid term score");
+            m = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the Final Score");
+            f = Convert.ToInt32(Console.ReadLine());
+            avg = (q + m + f) / 3;
+            if(avg>=90)
+                Console.WriteLine("Grade A");
+            if(avg>=70 && avg<90)
+                Console.WriteLine("Grade B");
+            if(avg>=50 && avg<70)
+                Console.WriteLine("Grade C");
+            if (avg < 50)
+                Console.WriteLine("Grade F");
+        }
+    }
+}
